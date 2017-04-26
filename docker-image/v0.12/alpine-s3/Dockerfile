@@ -15,6 +15,8 @@ RUN set -ex \
     && echo 'gem: --no-document' >> /etc/gemrc \
     && gem install fluent-plugin-secure-forward \
     && gem install fluent-plugin-record-reformer \
+    && gem install fluent-plugin-rewrite-tag-filter \
+    && gem install fluent-plugin-prometheus \
     && gem install fluent-plugin-s3 -v "~> 0.8" \
     && gem install fluent-plugin-kubernetes_metadata_filter \
     && apk del .build-deps \
