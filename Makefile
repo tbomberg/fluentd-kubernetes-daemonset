@@ -22,6 +22,7 @@ ALL_IMAGES := \
 	v0.12/debian-logentries:v0.12.33-debian-logentries,v0.12-debian-logentries,debian-logentries \
 	v0.12/debian-cloudwatch:v0.12.33-debian-cloudwatch,v0.12-debian-cloudwatch,debian-cloudwatch \
 	v0.12/debian-stackdriver:v0.12.33-debian-stackdriver,v0.12-debian-stackdriver,debian-stackdriver \
+	v0.12/debian-gelf:v0.12.33-debian-gelf,v0.12-debian-gelf,debian-gelf \
 	v0.12/debian-s3:v0.12.33-debian-s3,v0.12-debian-s3,debian-s3
 
 #	<Dockerfile>:<version>,<tag1>,<tag2>,...

@@ -31,6 +31,8 @@ Fluentd Daemonset for Kubernetes
   [(v0.12/debian-cloudwatch/Dockerfile)][debian-cloudwatch-dockerfile]
 - `v0.12.33-debian-s3`,`v0.12-debian-s3`,`debian-s3`
   [(v0.12/debian-s3/Dockerfile)][debian-s3-dockerfile]
+- `v0.12.33-debian-gelf`,`v0.12-debian-gelf`,`debian-gelf`
+  [(v0.12/debian-s3/Dockerfile)][debian-s3-dockerfile]
 
 
 
